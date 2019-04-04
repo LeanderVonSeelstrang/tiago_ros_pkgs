@@ -6,7 +6,7 @@ PalLocalPlanner:
 
   # main params
   acc_lim_x    : 0.5
-  acc_lim_theta: !degrees 30.0
+  acc_lim_theta: !degrees 60.0
   xy_goal_tolerance : 0.2
   yaw_goal_tolerance: 0.2
   obstacle_avoider: 0 # VFH
@@ -36,9 +36,9 @@ TrajectoryPlannerROS:
 # Set the velocity limits of the robot
   max_vel_x: 0.6                   
   min_vel_x: 0.0                  
-  max_vel_theta: !degrees 90.0      
-  min_vel_theta: !degrees -90.0               
-  min_in_place_vel_theta: !degrees 45.0 
+  max_vel_theta: !degrees 60.0      
+  min_vel_theta: !degrees -60.0               
+  min_in_place_vel_theta: !degrees 20.0 
 
 # Notice that this velocity is set to be negative. A bit confusing admittedly.
   escape_vel: -0.0                 # -0.1
