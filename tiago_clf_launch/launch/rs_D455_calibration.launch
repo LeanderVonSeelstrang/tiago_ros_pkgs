@@ -3,7 +3,7 @@
   <arg name="publish_transform" default="True"></arg>
 
   <group if="$(arg publish_transform)">
-    <node pkg="tf2_ros" type="static_transform_publisher" name="realsense_calibration" args="0.00020595 0.066965 -0.029624 -0.0088591 -0.028474 0.0058181 0.99954 realsense_link camera_link" />
+    <node pkg="tf2_ros" type="static_transform_publisher" name="realsense_calibration" args="0.020855 0.02423 0.0044007 -0.0082042 0.017703 0.02978 0.99937 realsense_link camera_link" />
   </group>
 
   <group unless="$(arg publish_transform)"> 

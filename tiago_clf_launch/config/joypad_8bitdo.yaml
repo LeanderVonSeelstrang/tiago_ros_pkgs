@@ -7,11 +7,11 @@ teleop:
       -
         axis: 1
         target: linear.x
-        scale: 0.8
+        scale: 0.6
       -
         axis: 3
         target: angular.z
-        scale: 0.8
+        scale: 0.6
 
   head_down:
     type: action
